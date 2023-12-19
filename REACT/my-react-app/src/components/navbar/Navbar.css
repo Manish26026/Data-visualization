@@ -1,0 +1,81 @@
+.Navbar{
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    border: 0.5px solid rgb(196, 187, 187);
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+    /* top: 0; */
+    left: 280px;
+    right: 30px; 
+}
+.profile{
+    border-radius: 50%;
+    height: 35px;
+
+   
+}
+.icons{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    height: 25px;
+    align-items: center;
+  
+}
+.search{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+   
+
+}
+.searchicon{
+    border: 0.5px solid rgb(214, 211, 211);
+    border-radius: 8px;
+    padding: 3px;
+
+}
+.notificationcount{
+    align-items: center;
+    display: flex;
+    background-color: red;
+    color: aliceblue;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top:-2px;
+    bottom: -0px;
+    left:7px;
+    font-size: 12px;
+    justify-content: center;
+}
+.notification{
+    position: relative;
+}
+
+
+
+.shado:hover{
+    background: rgb(216, 214, 214);
+    
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(216,214,214,1.000)
+    ;
+    color: white;
+
+
+}
+.curse:hover{
+    cursor: pointer;
+
+}

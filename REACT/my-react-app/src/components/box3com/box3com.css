@@ -1,0 +1,46 @@
+
+.box3com{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   
+ }
+.nn{
+  height: 200px !important;
+  width: 100% !important;
+  margin: 0px !important;
+
+}
+  .chartbox3{
+
+    
+    width: 100%;
+    height: 100px !important;
+    margin-top: 36px;
+
+
+  }
+  .recharts-layer{
+    width: 300px !important;
+  }
+  
+  .chartbox3 .recharts-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box3img{
+    height: 50px;
+    width: 50px;
+    flex: 1;
+  }
+  
+  .box3text{
+    flex: 2;
+    line-height: 0.2;
+    text-align: end;
+  }
+ 

@@ -1,0 +1,53 @@
+.verticalboxsms{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.vertical-dot{
+    width: 10px;
+    height: 30px;
+    background-image: radial-gradient(circle, black 1px, transparent 2px);
+    background-size: 100% 33.33%;
+    background-color: transparent;
+    border: none;
+}
+.headingbox6{
+    display: flex;
+    flex-direction: row;
+}
+.verticaldotbox6{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    padding: 5px;
+    
+}
+.data_box6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px Solid rgb(158, 158, 163);
+
+    padding: 9px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #c4ccd4;
+}
+.itemsbox6{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.fi{
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.data_box6:hover{
+    background-color:black ;
+    color: white;
+
+}

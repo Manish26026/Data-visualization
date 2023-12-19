@@ -1,0 +1,21 @@
+.box2com{
+    background-color: transparent;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+   
+  }
+  
+  .box2text{
+    flex:1;
+  }
+  .box2chart{
+    flex:2;
+    margin-top: 20px;
+    align-items: last baseline;
+  }
+  
+ 

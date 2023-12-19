@@ -1,0 +1,45 @@
+.box8com{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.vertical-dot{
+    width: 10px;
+    height: 30px;
+    background-image: radial-gradient(circle, black 1px, transparent 2px);
+    background-size: 100% 33.33%;
+    background-color: transparent;
+    border: none;
+}
+.headingbox8{
+    display: flex;
+    flex-direction: row;
+}
+.verticaldotbox8{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    padding: 5px;
+    
+}
+.data_box8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px Solid rgb(158, 158, 163);
+
+    padding: 9px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.itemsbox8{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.data_box8:hover{
+    background-color:black ;
+    color: white;
+
+}

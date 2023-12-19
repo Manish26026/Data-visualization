@@ -1,0 +1,86 @@
+.topbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(68, 66, 75);
+    padding: 20px;
+    border-radius: 10px;
+    color:white;
+    display: flex;
+}
+
+.titledata{
+    padding: 2px;
+    margin: 4px;
+    background-color: rgb(99, 96, 91);
+    border-radius: 3px;
+
+}
+.titlebox{
+    gap: 20px;
+    flex: 2;
+    line-height: 3rem;
+}
+.titleinfo{
+    padding: 2px;
+    margin: 4px;
+    
+}
+.title{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+.title1{
+    flex: 1;
+    display: flex;
+}
+.title11{
+    flex: 1;
+    
+}
+.title12{
+    flex: 1;
+    
+}
+
+.title2{
+    flex: 1;
+}
+
+#box {
+    background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/earth-2.jpg);
+    background-size:cover;
+    border:2px solid #3a3a3a;
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    
+  animation: movimiento 5s linear 0s infinite;
+  box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+             -8px -8px 15px #333232 inset,
+             2px 2px 25px #3a3a3a inset,
+             -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+             25px 25px 45px RGBA(0,0,0, 0.45) inset;
+  
+  transform:rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+}
+  
+  @keyframes movimiento {
+    0% { background-position:0 0 }
+    100% { background-position:355px 0 }
+  }
+  
+  @keyframes stars {
+    0% { background-position:0 0 }
+    100% { background-position:0 100% }
+  }
+.topbox_img{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+
+.topboxspan{
+    padding-bottom: 10px;
+}
