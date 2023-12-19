@@ -1,6 +1,5 @@
 
 
-I wanted to express my sincere thanks for the recent assignment. It provided me with valuable new experiences and was a lot of fun. I'm truly grateful for the opportunity.
 
 For this assignment, I was tasked with creating a dashboard using React for the frontend, Django for the backend, and MySQL for the database. Here are the steps to start the project:
 
